@@ -1,0 +1,36 @@
+{
+  "name": "drpepper",
+  "author": "Hayes Bolen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "pebble-events": "^1.0.0"
+  },
+  "pebble": {
+    "displayName": "drpepper",
+    "uuid": "480656b1-bcbc-49d9-a0c2-853cae543b96",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_DR_PEPPER_LOGO",
+          "file": "images/drpepper.png"
+        }
+      ]
+    }
+  }
+}
+
+
